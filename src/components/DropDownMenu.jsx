@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import DownArrow from "./DownArrow";
 const Dropdown = styled.div`
   margin: 16;
   display: flex;
@@ -19,8 +18,8 @@ function DropdownMenu() {
       }}
     >
       <Dropdown>
-        <p style={{ marginRight: 5, marginTop: 13 }}>En</p>
-        <DownArrow />
+        <p style={{ marginRight: 5 }}>En</p>
+        <i class="fa-solid fa-chevron-down"></i>
       </Dropdown>
     </div>
   );
