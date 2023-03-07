@@ -1,36 +1,51 @@
 # Ecommerce project developed using React js - Node js - mongoDB
 
 # project structure
+
 ## client
-###### public
-###### images
-###### index.html
+  - public
+    - images
+    - index.html
 
---- src
------ components
-------- Announcements.jsx
-------- Categories.jsx
-------- CategoryItem.jsx
-------- Footer.jsx
-------- Navbar.jsx
-------- Newsletter.jsx
-------- Product.jsx
-------- Products.jsx
-------- Slider.jsx
+## src
+- components
+  - Announcements.jsx
+  - Categories.jsx
+  - CategoryItem.jsx
+  - Footer.jsx
+  - Navbar.jsx
+  - Newsletter.jsx
+  - Product.jsx
+  - Products.jsx
+  - Slider.jsx
 
------ pages
-------- Cart.jsx
-------- Home.jsx
-------- Login.jsx
-------- Product.jsx
-------- ProductList.jsx
-------- Register.jsx
+- pages
+  - Cart.jsx
+  - Home.jsx
+  - Login.jsx
+  - Product.jsx
+  - ProductList.jsx
+  - Register.jsx
 
------ App.css
------ App.js
------ data.js
------ index.js
--server
+- App.css
+- App.js
+- data.js
+- index.js
+
+## server
+  - routes
+    - auth.js
+    - cart.js
+    - order.js
+    - product.js
+    - stripe.js
+    - user.js
+    - verifyTokens 
+  - models
+    - Cart.js
+    - Oredr.js
+    - Product.js
+    - User.js
 
 # Client-side usage(PORT: 3000)
 $ cd client          // go to client folder
