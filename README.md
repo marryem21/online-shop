@@ -1,11 +1,10 @@
 # Ecommerce project developed using React js - Node js - mongoDB
 
 # project structure
-- client
-
---- public
------ images
------ index.html
+## client
+###### public
+###### images
+###### index.html
 
 --- src
 ----- components
