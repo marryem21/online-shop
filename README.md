@@ -48,11 +48,11 @@
     - User.js
 
 # Client-side usage(PORT: 3000)
-$ cd client          // go to client folder
-$ npm i    // npm install packages
-$ npm start 
+- cd client // go to client folder
+- npm i    // npm install packages
+- npm start 
 
 # Server-side usage(PORT: 5000)
-$ cd server
-$ npm i 
-$ npm start
+- cd server
+- npm i 
+- npm start
