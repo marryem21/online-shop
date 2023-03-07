@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-}
 
+}
+body{
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
